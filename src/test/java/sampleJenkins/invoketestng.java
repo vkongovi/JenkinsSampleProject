@@ -18,7 +18,7 @@ public class invoketestng {
 
     @BeforeSuite
     public void driverinitialize(){
-        System.setProperty( "webdriver.chrome.driver", "C:\\Vinaya\\Selenium\\chromedriver.exe" );
+        System.setProperty( "webdriver.chrome.driver", "C:\\Vinaya\\Selenium\\drivers\\chromedriver.exe" );
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS) ;
     }
